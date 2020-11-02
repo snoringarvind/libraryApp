@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  background-color: lightgrey;
+  text-align: center;
+  padding: 1px;
+}
+
+.addNewBook{
+  width: 100%;
+}
+
+.addNewBook form{
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.desc{
+  flex-basis: 25%;
+  /* margin: 5px; */
+  padding: 10px;
+  border:1px solid red;
+}
+
+.desc input[type=text]{
+  width: 98%;
+}
+
+.addBookButton{
+  flex-basis: 100%;
+  text-align: center;
+}
+.addBookButton button{
+  /* padding: 10px; */
+  /* font-size: large; */
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.readStatus{
+  display: flex;
+  align-items: flex-end;
+}
+
+
+/* .addBook{
+  flex-basis: 100%;
+} */
+
+/* x-x-x-x-x-xx-x-xx- */
+
+
+.displayAddedBook{
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: black; */
+  /* color: white;  */
+}
+
+.card{
+  flex-basis:21.5%;
+  padding: 5px;
+  border:1px solid;
+  margin:5px;
+}
+
+.crossMark{
+  float: right;
+  cursor: pointer;
+}
+
+.crossMark::after{
+  clear: both;
+  display: table;
+  content:"";
+}
+
+.toggleButton{
+  font-size: large;
+  border: 1px solid black;
+
+  padding: 2px 8px;
+}
+
+.toggleButton:hover{
+  cursor: pointer;
+}
